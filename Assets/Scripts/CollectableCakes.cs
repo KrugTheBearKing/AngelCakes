@@ -18,5 +18,8 @@ public class CollectableCakes : MonoBehaviour
             GameObject.Destroy(gameObject, collectableSound?.length ?? 0.0f);
             Destroy(this);
         }
+        
     }
+
+    
 }
